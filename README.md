@@ -77,3 +77,34 @@ Styling & Design
 
 All styles are built using Tailwind CSS.
 This gives a clean, responsive interface that adapts to all screen sizes.
+Local Setup (MAMP / XAMPP)
+
+1️ Start MAMP or XAMPP  
+2️ Move the `ticketflow-twig` folder into your local web root, e.g.
+Key Files
+File	Purpose
+config.php	Initializes Twig & session
+index.php	Landing page
+login.php, signup.php	Auth pages
+dashboard.php, tickets.php	Protected pages
+includes/auth.php	Helper functions
+assets/js/auth.js	Frontend login/signup logic
+♿ Accessibility
+
+Forms labeled & keyboard accessible
+
+Toasts use readable colors
+
+Consistent navigation
+
+Test User Credentials
+Email: admin@test.com
+Password: password
+
+ Known Issues
+
+Client-side mock auth only
+
+No database (demo only)
+
+Uses LocalStorage to simulate sessions
