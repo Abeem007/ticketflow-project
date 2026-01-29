@@ -6,7 +6,7 @@ It mirrors the same user experience as the React and Twig versions, providing a 
 
 ---
 ## Live Demo
-*ticketflow-vueproject.netlify.app*
+https://ticketflow-vueproject.netlify.app/
 
 ---
 ##  Frameworks & Libraries Used
